@@ -1,16 +1,27 @@
-.btn {
-  background-color: transparent;
+.btn-all {
   min-width: 140px;
   height: 56px;
   text-decoration: none;
   border: none;
-  /* border-radius: 2px; */
+  border-radius: 2px;
   font-size: 14px;
   outline: none;
   cursor: pointer;
   background-color: #ffffff;
   color: #735a7b;
 }
-.btn:hover {
+.btn-all:hover {
   background-color: #f1f1f1;
+}
+.pad-right {
+  padding-right: 12px;
+}
+.pad-left {
+  padding-left: 12px;
+}
+/* footer */
+.footer {
+  display: flex;
+  background-color: #f6f7f6;
+  justify-content: space-between;
 }
